@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Redirect, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import ContactUs from "./components/ContactUs";
 import NotFound from "./components/NotFound";
 import PetsList from "./components/PetsList";
