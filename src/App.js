@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
 import ContactUs from "./components/ContactUs";
+import NotFound from "./components/NotFound";
 import PetsList from "./components/PetsList";
 import PetView from "./components/PetView";
 import Home from "./pages/Home";
@@ -42,7 +43,7 @@ export default function App() {
         <ContactUs />
       </Route>
       <Route exact path="/404">
-        <Redirect to="/pets" />
+        <NotFound />
       </Route>
     </Switch>
   );
